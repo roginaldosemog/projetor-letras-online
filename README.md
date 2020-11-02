@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+<h1 align="center">Projetor Online</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="https://www.gnu.org/licenses/gpl-3.0" alt="licence" >
+        <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
+    </a>
+    <a href="https://codeclimate.com/github/roginaldosemog/projetor-online/maintainability" alt="maintainability status">
+        <img src="https://api.codeclimate.com/v1/badges/3bda73a913108e525c08/maintainability" />
+    </a>
+    <a href="https://travis-ci.com/github/roginaldosemog/projetor-online" alt="build status" >
+        <img src="https://travis-ci.com/roginaldosemog/projetor-online.svg?branch=master" />
+    </a> 
+    <a href="https://app.netlify.com/sites/projetor-online/deploys" alt="netlify status" >
+        <img src="https://api.netlify.com/api/v1/badges/e7448bc8-c7a4-4e8f-a645-2a9e44e20deb/deploy-status" />
+    </a>   
+</p>
 
-## Available Scripts
+<p align="center">
+    <a href="https://projetor-online.netlify.app/"><strong>Acesse o site do Projetor Online</strong></a>
+</p>
 
-In the project directory, you can run:
+## Sobre o projeto
 
-### `yarn start`
+Sistema online de projeção de letras, utilizando o navegador para controlar e projetar letras, imagens e vídeos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias utilizadas
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Desenvolvido com [React](https://reactjs.org/)
 
-### `yarn test`
+## Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esse projeto requer a instalação prévia do npm através do [node.js](https://nodejs.org/en/download/).
 
-### `yarn build`
+Para rodar o projeto, faça o clone desse repositório, entre na pasta clonada e execute o comando de instalação das dependências do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/roginaldosemog/projetor-online.git
+cd projetor-online
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Execução
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Com o projeto instalado, rode o comando:
 
-### `yarn eject`
+```bash
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ## Contribuição
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Siga o [guia de contribuição](CONTRIBUTING.md) e o [código de conduta](CODE_OF_CONDUCT.md) para entender os passos e regras para adicionar sua contribuição ao projeto. -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Licença
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GPLv3 © Igor Aragão. <!-- Acesse a [licença](LICENSE) para mais detalhes. -->

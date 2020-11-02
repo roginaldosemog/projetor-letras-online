@@ -2,7 +2,7 @@ export default function Control() {
   return (
     <div className="fullscreen">
       <div className="container">
-        <h1>Control Page</h1>
+        <h1>Controle</h1>
         {/* <nav>
             <ul>
                 <li>Link 1</li>

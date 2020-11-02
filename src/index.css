@@ -39,3 +39,43 @@ nav ul {
   padding-right: 6px;
   padding-left: 6px;
 }
+
+.only-fullscreen {
+  display: none;
+}
+
+.only-standalone {
+  display: none;
+}
+
+.only-minimal-ui {
+  display: none;
+}
+
+.only-browser {
+  display: none;
+}
+
+@media (display-mode: fullscreen) {
+  .only-fullscreen {
+    display: block !important;
+  }
+}
+
+@media (display-mode: standalone) {
+  .only-standalone {
+    display: block !important;
+  }
+}
+
+@media (display-mode: minimal-ui) {
+  .only-minimal-ui {
+    display: block !important;
+  }
+}
+
+@media (display-mode: browser) {
+  .only-browser {
+    display: block !important;
+  }
+}

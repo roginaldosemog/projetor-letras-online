@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'CMG Sans Caps';
+    src: url(./CMGSansCaps-Medium.ttf);
+    font-stretch: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'CMG Sans Caps';
+    src: url(./CMGSansCaps-SemiBold.ttf);
+    font-stretch: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'CMG Sans Caps';
+    src: url(./CMGSansCaps-Bold.ttf);
+    font-stretch: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'CMG Sans';
+    src: url(./CMGSans-Medium.ttf);
+    font-stretch: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'CMG Sans';
+    src: url(./CMGSans-SemiBold.ttf);
+    font-stretch: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'CMG Sans';
+    src: url(./CMGSans-Bold.ttf);
+    font-stretch: normal;
+    font-weight: 700;
+}

@@ -1,6 +1,6 @@
 export default function Control() {
   return (
-    <div className="fullscreen">
+    <div className="fit-screen">
       <div className="container">
         <h1>Controle</h1>
         {/* <nav>

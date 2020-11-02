@@ -1,12 +1,14 @@
 @import '~bootstrap/dist/css/bootstrap.css';
+@import 'assets/fonts/Inter/inter.css';
+@import 'assets/fonts/CMG\ Sans/cmgsans.css';
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fullscreen {
+.fit-screen {
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
@@ -18,15 +20,12 @@ body {
   color: white;
 }
 
-/* nav ul {
-  height: 200px;
-  width: 200px;
+.stream-screen {
+  color: #ffffff;
+  background-color: #00ff00;
+  font-family: 'CMG Sans Caps', sans-serif;
+  font-weight: 700;
 }
-
-nav ul {
-  overflow: hidden;
-  overflow-y: scroll;
-} */
 
 /* Grid */
 
@@ -40,15 +39,23 @@ nav ul {
   padding-left: 6px;
 }
 
+/* Testes */
+
+nav ul {
+  height: 200px;
+  width: 200px;
+}
+
+nav ul {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
 .only-fullscreen {
   display: none;
 }
 
 .only-standalone {
-  display: none;
-}
-
-.only-minimal-ui {
   display: none;
 }
 
@@ -68,14 +75,48 @@ nav ul {
   }
 }
 
-@media (display-mode: minimal-ui) {
-  .only-minimal-ui {
-    display: block !important;
-  }
-}
-
 @media (display-mode: browser) {
   .only-browser {
     display: block !important;
   }
+}
+
+.normal-500 {
+  font-family: 'CMG Sans';
+  font-stretch: normal;
+  font-weight: 500;
+}
+
+.normal-600 {
+  font-family: 'CMG Sans';
+  font-stretch: normal;
+  font-weight: 600;
+}
+
+.normal-700 {
+  font-family: 'CMG Sans';
+  font-stretch: normal;
+  font-weight: 700;
+}
+
+.caps-500 {
+  font-family: 'CMG Sans Caps';
+  font-stretch: normal;
+  font-weight: 500;
+}
+
+.caps-600 {
+  font-family: 'CMG Sans Caps';
+  font-stretch: normal;
+  font-weight: 600;
+}
+
+.caps-700 {
+  font-family: 'CMG Sans Caps';
+  font-stretch: normal;
+  font-weight: 700;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3), 0px 0px 8px rgba(0, 0, 0, 0.3);
 }

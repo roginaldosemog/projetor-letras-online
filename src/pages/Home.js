@@ -5,7 +5,7 @@ export default function Home() {
   const history = useHistory();
 
   return (
-    <div className="fullscreen">
+    <div className="fit-screen">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8">

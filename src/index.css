@@ -31,7 +31,7 @@ body {
 }
 
 /* Backgrounds */
-.bg-black {
+.status-black-screen, .status-lyrics, .bg-black {
   background-color: black;
 }
 

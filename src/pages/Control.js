@@ -1,8 +1,15 @@
 import { db } from "../services/firebase";
 
 export default function Control() {
+  function setLiveBlackScreen() {
+    db.ref("live").update({
+      status: "black-screen",
+    });
+  }
+
   function setLiveSlide(slide) {
-    db.ref("live").set({
+    db.ref("live").update({
+      status: "lyrics",
       slide: slide,
     });
   }
@@ -11,6 +18,12 @@ export default function Control() {
     <div className="fit-screen">
       <div className="container">
         <h1>Controle</h1>
+        <button
+          className="btn btn-lg btn-primary mb-2 mr-2"
+          onClick={() => setLiveBlackScreen()}
+        >
+          Tela Preta
+        </button>
         <button
           className="btn btn-lg btn-primary mb-2 mr-2"
           onClick={() => setLiveSlide("")}

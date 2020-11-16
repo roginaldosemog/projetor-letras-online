@@ -1,8 +1,34 @@
+import { db } from "../services/firebase";
+
 export default function Control() {
+  function setLiveSlide(slide) {
+    db.ref("live").set({
+      slide: slide,
+    });
+  }
+
   return (
     <div className="fit-screen">
       <div className="container">
         <h1>Controle</h1>
+        <button
+          className="btn btn-lg btn-primary mb-2 mr-2"
+          onClick={() => setLiveSlide("")}
+        >
+          Slide Vazio
+        </button>
+        <button
+          className="btn btn-lg btn-primary mb-2 mr-2"
+          onClick={() => setLiveSlide("Slide 1")}
+        >
+          Slide 1
+        </button>
+        <button
+          className="btn btn-lg btn-primary mb-2"
+          onClick={() => setLiveSlide("Slide 2")}
+        >
+          Slide 2
+        </button>
         {/* <nav>
             <ul>
                 <li>Link 1</li>

@@ -30,6 +30,11 @@ body {
   font-weight: 700;
 }
 
+/* Backgrounds */
+.bg-black {
+  background-color: black;
+}
+
 /* Grid */
 
 .row {
@@ -115,9 +120,9 @@ nav ul {
 }
 
 .caps-700 {
-  font-family: 'CMG Sans Caps';
-  font-stretch: normal;
-  font-weight: 700;
+  font-family: 'CMG Sans Caps' !important;
+  font-stretch: normal !important;
+  font-weight: 700 !important;
 }
 
 .text-shadow {
